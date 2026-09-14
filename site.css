@@ -587,6 +587,28 @@ figure figcaption {
 }
 
 
+
+/* COL-NAV-01-FIT: keep wordmark + CTA + Menu inside 375 (Yulia lock) */
+.header-cta .cta-short { display: none; }
+.header-cta { flex-shrink: 1; min-width: 0; white-space: nowrap; }
+.header-row .menu { flex-shrink: 0; }
+.wordmark { flex-shrink: 0; }
+
+@media (max-width: 640px) {
+  .header-row { gap: 0.5rem; }
+  .header-cta { margin-left: auto; }
+  .header-row .menu { margin-left: 0.35rem; }
+  .header-cta.btn-small { padding: 0.4rem 0.75rem; font-size: 0.8125rem; }
+  .menu summary { padding: 0.4rem 0.75rem; font-size: 0.8125rem; }
+}
+
+@media (max-width: 400px) {
+  .header-row { gap: 0.4rem; }
+  .header-cta .cta-full { display: none; }
+  .header-cta .cta-short { display: inline; }
+  .header-cta.btn-small { padding: 0.4rem 0.7rem; font-size: 0.8rem; }
+}
+
 /* COL-NAV-01: mobile menu when .site-nav hides ≤640px */
 .menu { display: none; position: relative; margin-left: 0.5rem; }
 .menu summary {
@@ -613,9 +635,7 @@ figure figcaption {
   .site-nav { display: none; }
   .menu { display: block; }
 
-  .header-row { gap: 1rem; }
-
-  .header-row .btn-small { margin-left: auto; }
+  /* gap/cta fit handled in COL-NAV-01-FIT */
 
   .hero-actions .btn { flex: 1 1 auto; }
 }
