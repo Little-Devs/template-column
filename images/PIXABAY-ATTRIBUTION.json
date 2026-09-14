@@ -1,11 +1,13 @@
 [
   {
     "slot": "ledger",
-    "file": "/workspace/template-column/images/ledger-desk.jpg",
-    "pixabay_id": 92652,
-    "page": "https://pixabay.com/photos/diary-journal-book-ink-pen-paper-92652/",
-    "user": "JamesDeMers",
-    "tags": "diary, journal, book, ink pen, paper, pages, account, register, record, ledger, log, daffodil, page markers, diary, journal, journal, journal, journal, journal, register, ledger, ledger, daffodil"
+    "file": "images/ledger-desk.jpg",
+    "pixabay_id": 2816806,
+    "page": "https://pixabay.com/photos/spreadsheet-number-numbers-excel-2816806/",
+    "user": "tomfield",
+    "tags": "spreadsheet, number, numbers, excel, accounting, columns, figures, tabular",
+    "md5": "0800e73311e9ba6e6535b42f2e911377",
+    "note": "COL-IMG-02: replaced 1428230 handwritten ledger which failed as novel/diary crop"
   },
   {
     "slot": "rhythm",
