@@ -1,0 +1,82 @@
+{
+  "id": "column",
+  "name": "Column",
+  "version": "1.0.0",
+  "description": "Ledger-paper accounting landing. Green/Ink columns, Syne display. Bookkeeping \u2014 not advisory. Thesis: Books that stay balanced.",
+  "category": "landing-page",
+  "subcategory": "accounting",
+  "repository": "https://github.com/Little-Devs/template-column",
+  "demoUrl": "https://column.little.website/",
+  "previewImage": "https://column.little.website/preview.png",
+  "techStack": {
+    "framework": "Static HTML",
+    "version": "1",
+    "styling": "Hand CSS (design tokens)",
+    "scripting": "Vanilla JS (IntersectionObserver)"
+  },
+  "features": [
+    "Ledger-rule column motif",
+    "BAS / payroll / year-end services",
+    "Monthly rhythm photo band",
+    "Fixed-fee conversation CTA",
+    "Distinct from Northline (advisory)",
+    "prefers-reduced-motion finals",
+    "mailto CTAs to hello@column.example",
+    "Steve Pages _headers (CSP frame-ancestors for little.website)"
+  ],
+  "aesthetic": {
+    "style": "Accounting firm",
+    "description": "Ledger-paper accounting landing. Green/Ink columns, Syne display. Bookkeeping \u2014 not advisory.",
+    "fonts": {
+      "display": "Syne",
+      "sans": "Atkinson Hyperlegible",
+      "primary": "Atkinson Hyperlegible"
+    },
+    "colors": {
+      "primary": "#1F6B4A",
+      "primaryName": "Green",
+      "background": "#F7F4EF",
+      "backgroundName": "Ledger",
+      "ink": "#141210",
+      "inkName": "Ink",
+      "accent": "#D9D2C5",
+      "accentName": "Grid"
+    }
+  },
+  "sections": [
+    "Sticky nav",
+    "Hero + ledger photo",
+    "Services (BAS/payroll/year-end)",
+    "Monthly rhythm band",
+    "Fee note",
+    "Closing CTA",
+    "Footer"
+  ],
+  "useCases": [
+    "Accounting / bookkeeping firm demos",
+    "SME books landings",
+    "Buyer template catalog (little.website)"
+  ],
+  "customization": {
+    "difficulty": "easy",
+    "colorScheme": "site.css :root tokens",
+    "typography": "Syne + Atkinson Hyperlegible",
+    "layout": "CSS Grid + Flexbox"
+  },
+  "performance": {
+    "framework": "Static HTML",
+    "cssOnly": "Partial \u2014 JS reveals where present; content visible without JS",
+    "lighthouse": "target 90+"
+  },
+  "license": "MIT",
+  "author": "Little-Devs",
+  "createdAt": "2026-09-14",
+  "lastUpdated": "2026-09-14",
+  "tags": [
+    "landing-page",
+    "accounting",
+    "bookkeeping",
+    "static-html",
+    "light"
+  ]
+}
